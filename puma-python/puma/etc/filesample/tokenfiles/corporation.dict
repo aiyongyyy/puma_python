@@ -1,0 +1,586 @@
+#####场景
+SCE:corporation
+
+TAG:corporation_position
+董事长
+副董事长
+董事
+独立董事
+董事会秘书
+监事会主席
+监事副主席
+监事
+独立监事
+总经理
+常务副总
+副总经理
+总经理助理
+职业经理
+财务总监
+名誉董事长
+常务董事
+财务副总监
+总会计师
+副总会计师
+高级会计师
+常务副董事长
+总裁
+副总裁
+工会主席
+总裁助理
+技术总监
+工会副主席
+市场总监
+人力资源总监
+董事会顾问
+监事会顾问
+常务副总裁
+总工程师
+领导人家属
+领导人公司
+证券事务代表
+董秘授权代表
+核心技术人员
+副总工程师
+执行董事长
+财务总监助理
+非执行董事
+首席执行官
+CEO
+代理董事长
+审计部负责人
+执行董事
+职工董事
+独立非执行董事
+职工监事
+外部监事
+股东监事
+员工监事
+公司秘书
+信贷风险总监
+总稽核师
+总审计师
+首席信息官
+CIO
+首席风险官
+总法律顾问
+首席营运官
+COO
+首席财务官
+CFO
+首席技术官
+CTO
+首席人事官
+CHO
+首席知识官
+CKO
+首席市场官
+CMO
+首席经济学家
+首席审计官
+业务总监
+执行总裁
+执行副总裁
+执行总经理
+执行副总经理
+总飞行师
+总经济师
+副总经济师
+办公室主任
+办公室副主任
+常务副行长
+党委副书记
+纪委书记
+内部审计负责人
+行长
+副行长
+行长助理
+党委书记
+党委委员
+基金托管部总经理
+基金托管部副总经理
+基金托管部相关领导
+投资决策委员会主席
+投资决策委员会副主席
+投资决策委员会委员
+高级管理人员
+
+
+TAG:corporation_shareholder
+胡华
+
+TAG:corporation_project
+云信增利42号证券投资单一资金信托
+
+TAG:corporation_company
+安富国际
+
+TAG:corporation_ticker_alias
+中石油	{"normal":"中国石油","ticker":"601857"}
+工行	{"normal":"工商银行","ticker":"601398"}
+建行	{"normal":"建设银行","ticker":"601939"}
+农行	{"normal":"农业银行","ticker":"601288"}
+中行	{"normal":"中国银行","ticker":"601988"}
+中石化	{"normal":"中国石化","ticker":"600028"}
+国寿	{"normal":"中国人寿","ticker":"601628"}
+神华	{"normal":"中国神华","ticker":"601088"}
+交行	{"normal":"交通银行","ticker":"601328"}
+招行	{"normal":"招商银行","ticker":"600036"}
+浦发	{"normal":"浦发银行","ticker":"600000"}
+上汽	{"normal":"上汽集团","ticker":"600104"}
+茅台	{"normal":"贵州茅台","ticker":"600519"}
+太保	{"normal":"中国太保","ticker":"601601"}
+光大	{"normal":"光大银行","ticker":"601818"}
+格力	{"normal":"格力电器","ticker":"000651"}
+海通	{"normal":"海通证券","ticker":"600837"}
+万科	{"normal":"万科A","ticker":"000002"}
+华能	{"normal":"华能国际","ticker":"600011"}
+京东方	{"normal":"京东方A","ticker":"000725"}
+双汇	{"normal":"双汇发展","ticker":"000895"}
+伊利	{"normal":"伊利股份","ticker":"600887"}
+美的	{"normal":"美的集团","ticker":"000333"}
+联通	{"normal":"中国联通","ticker":"600050"}
+宝钢	{"normal":"宝钢股份","ticker":"600019"}
+中交建	{"normal":"中国交建","ticker":"601800"}
+洋河	{"normal":"洋河股份","ticker":"002304"}
+浙能	{"normal":"浙能电力","ticker":"600023"}
+中铁	{"normal":"中国中铁","ticker":"601390"}
+北车	{"normal":"中国北车","ticker":"601299"}
+保利	{"normal":"保利地产","ticker":"600048"}
+海天伟业	{"normal":"海天味业","ticker":"603288"}
+苏宁	{"normal":"苏宁云商","ticker":"002024"}
+恒瑞医院	{"normal":"恒瑞医药","ticker":"600276"}
+广汽	{"normal":"广汽集团","ticker":"601238"}
+包稀	{"normal":"包钢稀土","ticker":"600111"}
+复星	{"normal":"复星医药","ticker":"600196"}
+中兴	{"normal":"中兴通讯","ticker":"000063"}
+国航	{"normal":"中国国航","ticker":"601111"}
+江铜	{"normal":"江西铜业","ticker":"600362"}
+中铝	{"normal":"中国铝业","ticker":"601600"}
+海尔	{"normal":"青岛海尔","ticker":"600690"}
+金地	{"normal":"金地集团","ticker":"600383"}
+广汇	{"normal":"广汇能源","ticker":"600256"}
+乐视	{"normal":"乐视网","ticker":"300104"}
+潍柴	{"normal":"潍柴动力","ticker":"000338"}
+康美	{"normal":"康美药业","ticker":"600518"}
+华侨城	{"normal":"华侨城A","ticker":"000069"}
+中集	{"normal":"中集集团","ticker":"000039"}
+上石化	{"normal":"上海石化","ticker":"600688"}
+中冶	{"normal":"中国中冶","ticker":"601618"}
+洛钼	{"normal":"洛阳钼业","ticker":"603993"}
+国旅	{"normal":"中国国旅","ticker":"601888"}
+中远洋	{"normal":"中国远洋","ticker":"601919"}
+长白山	{"normal":"白云山","ticker":"600332"}
+包钢	{"normal":"包钢股份","ticker":"600010"}
+东航	{"normal":"东方航空","ticker":"600115"}
+金隅	{"normal":"金隅股份","ticker":"601992"}
+华电	{"normal":"华电国际","ticker":"600027"}
+南航	{"normal":"南方航空","ticker":"600029"}
+TCL	{"normal":"TCL集团","ticker":"000100"}
+粤电力	{"normal":"粤电力A","ticker":"000539"}
+鞍钢	{"normal":"鞍钢股份","ticker":"000898"}
+森马	{"normal":"森马服饰","ticker":"002563"}
+张裕	{"normal":"张裕A","ticker":"000869"}
+用友	{"normal":"用友软件","ticker":"600588"}
+仪化	{"normal":"*ST仪化","ticker":"600871"}
+一汽	{"normal":"一汽轿车","ticker":"000800"}
+万向	{"normal":"万向钱潮","ticker":"000559"}
+南玻	{"normal":"南玻A","ticker":"000012"}
+北大荒	{"normal":"*ST大荒","ticker":"600598"}
+华锐风电	{"normal":"*ST锐电","ticker":"601558"}
+哈药	{"normal":"哈药股份","ticker":"600664"}
+美邦	{"normal":"美邦服饰","ticker":"002269"}
+中国纺机	{"normal":"S*ST中纺","ticker":"600610"}
+陕国投	{"normal":"陕国投A","ticker":"000563"}
+鲁泰纺织	{"normal":"鲁泰A","ticker":"000726"}
+深赤湾	{"normal":"深赤湾A","ticker":"000022"}
+沙隆达	{"normal":"沙隆达A","ticker":"000553"}
+深深宝	{"normal":"深深宝A","ticker":"000019"}
+雅本	{"normal":"雅本化学","ticker":"300261"}
+东睦	{"normal":"东睦股份","ticker":"600114"}
+济柴	{"normal":"*ST济柴","ticker":"000617"}
+深康佳	{"normal":"深康佳A","ticker":"000016"}
+东凌	{"normal":"东凌国际","ticker":"000893"}
+龙韵	{"normal":"龙韵股份","ticker":"603729"}
+南电	{"normal":"*ST南电A","ticker":"000037"}
+大恒	{"normal":"大恒科技","ticker":"600288"}
+粤宏远	{"normal":"粤宏远A","ticker":"000573"}
+美锦	{"normal":"美锦能源","ticker":"000723"}
+锡业	{"normal":"锡业股份","ticker":"000960"}
+西泵	{"normal":"西泵股份","ticker":"002536"}
+光迅	{"normal":"光迅科技","ticker":"002281"}
+华茂	{"normal":"华茂股份","ticker":"000850"}
+鄂资	{"normal":"鄂资B股","ticker":"900936"}
+鲁信	{"normal":"鲁信创投","ticker":"600783"}
+顺发	{"normal":"顺发恒业","ticker":"000631"}
+慈星	{"normal":"慈星股份","ticker":"300307"}
+福耀	{"normal":"福耀玻璃","ticker":"600660"}
+青山	{"normal":"青山纸业","ticker":"600103"}
+永鼎	{"normal":"永鼎股份","ticker":"600105"}
+南玻	{"normal":"南玻A","ticker":"000012"}
+沙隆达	{"normal":"沙隆达A","ticker":"000553"}
+天保	{"normal":"天保基建","ticker":"000965"}
+苏试	{"normal":"苏试试验","ticker":"300416"}
+松芝	{"normal":"松芝股份","ticker":"002454"}
+宝硕	{"normal":"宝硕股份","ticker":"600155"}
+金圆	{"normal":"金圆股份","ticker":"000546"}
+华侨城	{"normal":"华侨城A","ticker":"000069"}
+天宝	{"normal":"天宝股份","ticker":"002220"}
+贵航	{"normal":"贵航股份","ticker":"600523"}
+怡球	{"normal":"怡球资源","ticker":"601388"}
+鲁泰	{"normal":"鲁泰A","ticker":"000726"}
+键桥	{"normal":"键桥通讯","ticker":"002316"}
+朗玛	{"normal":"朗玛信息","ticker":"300288"}
+科恒	{"normal":"科恒股份","ticker":"300340"}
+高升	{"normal":"高升控股","ticker":"000971"}
+宝钛	{"normal":"宝钛股份","ticker":"600456"}
+罗顿	{"normal":"罗顿发展","ticker":"600209"}
+大亚	{"normal":"大亚科技","ticker":"000910"}
+海正	{"normal":"海正药业","ticker":"600267"}
+光一	{"normal":"光一科技","ticker":"300356"}
+吉视	{"normal":"吉视传媒","ticker":"601929"}
+羚锐	{"normal":"羚锐制药","ticker":"600285"}
+兴化	{"normal":"*ST兴化","ticker":"002109"}
+冀凯	{"normal":"冀凯股份","ticker":"002691"}
+壹桥	{"normal":"壹桥海参","ticker":"002447"}
+益民	{"normal":"益民集团","ticker":"600824"}
+鼎龙	{"normal":"鼎龙股份","ticker":"300054"}
+山鹰	{"normal":"山鹰纸业","ticker":"600567"}
+鹏翎	{"normal":"鹏翎股份","ticker":"300375"}
+北玻	{"normal":"北玻股份","ticker":"002613"}
+晶盛	{"normal":"晶盛机电","ticker":"300316"}
+赣锋	{"normal":"赣锋锂业","ticker":"002460"}
+川投	{"normal":"川投能源","ticker":"600674"}
+西仪	{"normal":"西仪股份","ticker":"002265"}
+扬农	{"normal":"扬农化工","ticker":"600486"}
+新朋	{"normal":"新朋股份","ticker":"002328"}
+万和	{"normal":"万和电气","ticker":"002543"}
+润邦	{"normal":"润邦股份","ticker":"002483"}
+海直	{"normal":"中信海直","ticker":"000099"}
+万泽	{"normal":"万泽股份","ticker":"000534"}
+美克	{"normal":"美克家居","ticker":"600337"}
+索菱	{"normal":"索菱股份","ticker":"002766"}
+徐工	{"normal":"徐工机械","ticker":"000425"}
+中京	{"normal":"中京电子","ticker":"002579"}
+昆百大	{"normal":"昆百大A","ticker":"000560"}
+金路	{"normal":"金路集团","ticker":"000510"}
+盐湖	{"normal":"盐湖股份","ticker":"000792"}
+九阳	{"normal":"九阳股份","ticker":"002242"}
+天邦	{"normal":"天邦股份","ticker":"002124"}
+麦达	{"normal":"麦达数字","ticker":"002137"}
+慧球	{"normal":"慧球科技","ticker":"600556"}
+永贵	{"normal":"永贵电器","ticker":"300351"}
+柘中	{"normal":"柘中股份","ticker":"002346"}
+国农	{"normal":"国农科技","ticker":"000004"}
+财信	{"normal":"财信发展","ticker":"000838"}
+友利	{"normal":"友利控股","ticker":"000584"}
+鄂武商	{"normal":"鄂武商A","ticker":"000501"}
+双马	{"normal":"四川双马","ticker":"000935"}
+兴发	{"normal":"兴发集团","ticker":"600141"}
+豫能	{"normal":"豫能控股","ticker":"001896"}
+华纺	{"normal":"华纺股份","ticker":"600448"}
+银江	{"normal":"银江股份","ticker":"300020"}
+华斯	{"normal":"华斯股份","ticker":"002494"}
+飞亚达	{"normal":"飞亚达A","ticker":"000026"}
+福星	{"normal":"福星股份","ticker":"000926"}
+华兰	{"normal":"华兰生物","ticker":"002007"}
+丽鹏	{"normal":"丽鹏股份","ticker":"002374"}
+风华	{"normal":"风华高科","ticker":"000636"}
+神开	{"normal":"神开股份","ticker":"002278"}
+珈伟	{"normal":"珈伟股份","ticker":"300317"}
+蓝光	{"normal":"蓝光发展","ticker":"600466"}
+景峰	{"normal":"景峰医药","ticker":"000908"}
+长海	{"normal":"长海股份","ticker":"300196"}
+华策	{"normal":"华策影视","ticker":"300133"}
+华帝	{"normal":"华帝股份","ticker":"002035"}
+人乐	{"normal":"*ST人乐","ticker":"002336"}
+掌趣	{"normal":"掌趣科技","ticker":"300315"}
+维维	{"normal":"维维股份","ticker":"600300"}
+茂化	{"normal":"茂化实华","ticker":"000637"}
+慈航	{"normal":"金洲慈航","ticker":"000587"}
+浪莎	{"normal":"浪莎股份","ticker":"600137"}
+同大	{"normal":"同大股份","ticker":"300321"}
+嘉澳	{"normal":"嘉澳环保","ticker":"603822"}
+恒瑞	{"normal":"恒瑞医药","ticker":"600276"}
+号百	{"normal":"号百控股","ticker":"600640"}
+超讯	{"normal":"超讯通信","ticker":"603322"}
+美菱	{"normal":"美菱电器","ticker":"000521"}
+大晟	{"normal":"大晟文化","ticker":"600892"}
+泰达	{"normal":"泰达股份","ticker":"000652"}
+迪森	{"normal":"迪森股份","ticker":"300335"}
+宁沪	{"normal":"宁沪高速","ticker":"600377"}
+柳化	{"normal":"柳化股份","ticker":"600423"}
+绿盟	{"normal":"绿盟科技","ticker":"300369"}
+远达	{"normal":"远达环保","ticker":"600292"}
+威华	{"normal":"威华股份","ticker":"002240"}
+黑化	{"normal":"*ST黑化","ticker":"600179"}
+通威	{"normal":"通威股份","ticker":"600438"}
+中矿	{"normal":"中矿资源","ticker":"002738"}
+龙大	{"normal":"龙大肉食","ticker":"002726"}
+张裕	{"normal":"张裕A","ticker":"000869"}
+华菱	{"normal":"华菱钢铁","ticker":"000932"}
+中牧	{"normal":"中牧股份","ticker":"600195"}
+双鹭	{"normal":"双鹭药业","ticker":"002038"}
+海马	{"normal":"海马汽车","ticker":"000572"}
+泰豪	{"normal":"泰豪科技","ticker":"600590"}
+五矿	{"normal":"五矿发展","ticker":"600058"}
+三全	{"normal":"三全食品","ticker":"002216"}
+传化	{"normal":"传化股份","ticker":"002010"}
+江中	{"normal":"江中药业","ticker":"600750"}
+派思	{"normal":"派思股份","ticker":"603318"}
+杉杉	{"normal":"杉杉股份","ticker":"600884"}
+莱美	{"normal":"莱美药业","ticker":"300006"}
+舜天	{"normal":"江苏舜天","ticker":"600287"}
+用友	{"normal":"用友网络","ticker":"600588"}
+鲁抗	{"normal":"鲁抗医药","ticker":"600789"}
+金浦	{"normal":"金浦钛业","ticker":"000545"}
+长源	{"normal":"长源电力","ticker":"000966"}
+康盛	{"normal":"康盛股份","ticker":"002418"}
+凯恩	{"normal":"凯恩股份","ticker":"002012"}
+齐心	{"normal":"齐心集团","ticker":"002301"}
+安硕	{"normal":"安硕信息","ticker":"300380"}
+利欧	{"normal":"利欧股份","ticker":"002131"}
+亨通	{"normal":"亨通光电","ticker":"600487"}
+御银	{"normal":"御银股份","ticker":"002177"}
+云内	{"normal":"云内动力","ticker":"000903"}
+福瑞	{"normal":"福瑞股份","ticker":"300049"}
+国睿	{"normal":"国睿科技","ticker":"600562"}
+吉鑫	{"normal":"吉鑫科技","ticker":"601218"}
+毅昌	{"normal":"毅昌股份","ticker":"002420"}
+汇源	{"normal":"汇源通信","ticker":"000586"}
+正虹	{"normal":"正虹科技","ticker":"000702"}
+鲁商	{"normal":"鲁商置业","ticker":"600223"}
+景谷	{"normal":"*ST景谷","ticker":"600265"}
+深物业	{"normal":"深物业A","ticker":"000011"}
+舜船	{"normal":"*ST舜船","ticker":"002608"}
+渝三峡	{"normal":"渝三峡A","ticker":"000565"}
+林海	{"normal":"林海股份","ticker":"600099"}
+力合	{"normal":"力合股份","ticker":"000532"}
+盛屯	{"normal":"盛屯矿业","ticker":"600711"}
+秋林	{"normal":"秋林集团","ticker":"600891"}
+凤形	{"normal":"凤形股份","ticker":"002760"}
+皇台	{"normal":"*ST皇台","ticker":"000995"}
+浪奇	{"normal":"广州浪奇","ticker":"000523"}
+美盛	{"normal":"美盛文化","ticker":"002699"}
+海创	{"normal":"海创B股","ticker":"900955"}
+乾照	{"normal":"乾照光电","ticker":"300102"}
+大冶	{"normal":"大冶特钢","ticker":"000708"}
+丰林	{"normal":"丰林集团","ticker":"601996"}
+天茂	{"normal":"天茂集团","ticker":"000627"}
+步森	{"normal":"步森股份","ticker":"002569"}
+西王	{"normal":"西王食品","ticker":"000639"}
+中联	{"normal":"中联重科","ticker":"000157"}
+长航	{"normal":"长航凤凰","ticker":"000520"}
+钒钛	{"normal":"*ST钒钛","ticker":"000629"}
+盛天	{"normal":"盛天网络","ticker":"300494"}
+永新	{"normal":"永新股份","ticker":"002014"}
+深振业	{"normal":"深振业A","ticker":"000006"}
+雄韬	{"normal":"雄韬股份","ticker":"002733"}
+天舟	{"normal":"天舟文化","ticker":"300148"}
+永泰	{"normal":"永泰能源","ticker":"600157"}
+中茵	{"normal":"中茵股份","ticker":"600745"}
+宏发	{"normal":"宏发股份","ticker":"600885"}
+黔轮胎	{"normal":"黔轮胎A","ticker":"000589"}
+建投	{"normal":"建投能源","ticker":"000600"}
+韶能	{"normal":"韶能股份","ticker":"000601"}
+旗滨	{"normal":"旗滨集团","ticker":"601636"}
+盛达	{"normal":"盛达矿业","ticker":"000603"}
+大东海	{"normal":"大东海A","ticker":"000613"}
+华仁	{"normal":"华仁药业","ticker":"300110"}
+海格	{"normal":"海格通信","ticker":"002465"}
+商赢	{"normal":"商赢环球","ticker":"600146"}
+达安	{"normal":"达安基因","ticker":"002030"}
+朗迪	{"normal":"朗迪集团","ticker":"603726"}
+继峰	{"normal":"继峰股份","ticker":"603997"}
+铜峰	{"normal":"铜峰电子","ticker":"600237"}
+双箭	{"normal":"双箭股份","ticker":"002381"}
+中元	{"normal":"中元股份","ticker":"300018"}
+福田	{"normal":"福田汽车","ticker":"600166"}
+深天马	{"normal":"深天马A","ticker":"000050"}
+际华	{"normal":"际华集团","ticker":"601718"}
+金枫	{"normal":"金枫酒业","ticker":"600616"}
+大金	{"normal":"大金重工","ticker":"002487"}
+本钢	{"normal":"本钢板材","ticker":"000761"}
+中闽	{"normal":"中闽能源","ticker":"600163"}
+维科	{"normal":"维科精华","ticker":"600152"}
+美丰	{"normal":"四川美丰","ticker":"000731"}
+墨龙	{"normal":"山东墨龙","ticker":"002490"}
+北特	{"normal":"北特科技","ticker":"603009"}
+首开	{"normal":"首开股份","ticker":"600376"}
+信维	{"normal":"信维通信","ticker":"300136"}
+软控	{"normal":"软控股份","ticker":"002073"}
+宝安	{"normal":"中国宝安","ticker":"000009"}
+粤电力	{"normal":"粤电力A","ticker":"000539"}
+昇兴	{"normal":"昇兴股份","ticker":"002752"}
+兴蓉	{"normal":"兴蓉环境","ticker":"000598"}
+苏大	{"normal":"苏大维格","ticker":"300331"}
+圣农	{"normal":"圣农发展","ticker":"002299"}
+特力	{"normal":"特力A","ticker":"000025"}
+富煌	{"normal":"富煌钢构","ticker":"002743"}
+赣能	{"normal":"赣能股份","ticker":"000899"}
+三木	{"normal":"三木集团","ticker":"000632"}
+中洲	{"normal":"中洲控股","ticker":"000042"}
+菲达	{"normal":"菲达环保","ticker":"600526"}
+禾嘉	{"normal":"禾嘉股份","ticker":"600093"}
+烯碳	{"normal":"*ST烯碳","ticker":"000511"}
+广聚	{"normal":"广聚能源","ticker":"000096"}
+鹿港	{"normal":"鹿港文化","ticker":"601599"}
+太龙	{"normal":"太龙药业","ticker":"600222"}
+众合	{"normal":"众合科技","ticker":"000925"}
+中弘	{"normal":"中弘股份","ticker":"000979"}
+雪浪	{"normal":"雪浪环境","ticker":"300385"}
+浩物	{"normal":"浩物股份","ticker":"000757"}
+山推	{"normal":"山推股份","ticker":"000680"}
+丰原	{"normal":"丰原药业","ticker":"000153"}
+广博	{"normal":"广博股份","ticker":"002103"}
+天楹	{"normal":"中国天楹","ticker":"000035"}
+和邦	{"normal":"和邦生物","ticker":"603077"}
+德美	{"normal":"德美化工","ticker":"002054"}
+迪威	{"normal":"迪威视讯","ticker":"300167"}
+华映	{"normal":"华映科技","ticker":"000536"}
+凌云	{"normal":"凌云股份","ticker":"600480"}
+亚盛	{"normal":"亚盛集团","ticker":"600108"}
+海翔	{"normal":"海翔药业","ticker":"002099"}
+鱼跃	{"normal":"鱼跃医疗","ticker":"002223"}
+上峰	{"normal":"上峰水泥","ticker":"000672"}
+莱宝	{"normal":"莱宝高科","ticker":"002106"}
+博威	{"normal":"博威合金","ticker":"601137"}
+百润	{"normal":"百润股份","ticker":"002568"}
+冠昊	{"normal":"冠昊生物","ticker":"300238"}
+生益	{"normal":"生益科技","ticker":"600183"}
+天宸	{"normal":"天宸股份","ticker":"600620"}
+鑫茂	{"normal":"鑫茂科技","ticker":"000836"}
+易桥	{"normal":"*ST易桥","ticker":"000606"}
+柳钢	{"normal":"柳钢股份","ticker":"601003"}
+金晶	{"normal":"金晶科技","ticker":"600586"}
+康尼	{"normal":"康尼机电","ticker":"603111"}
+富奥	{"normal":"富奥股份","ticker":"000030"}
+中孚	{"normal":"中孚实业","ticker":"600595"}
+金叶	{"normal":"陕西金叶","ticker":"000812"}
+远兴	{"normal":"远兴能源","ticker":"000683"}
+江淮	{"normal":"江淮汽车","ticker":"600418"}
+高盟	{"normal":"高盟新材","ticker":"300200"}
+滨化	{"normal":"滨化股份","ticker":"601678"}
+达实	{"normal":"达实智能","ticker":"002421"}
+三丰	{"normal":"三丰智能","ticker":"300276"}
+常宝	{"normal":"常宝股份","ticker":"002478"}
+国祯	{"normal":"国祯环保","ticker":"300388"}
+京蓝	{"normal":"京蓝科技","ticker":"000711"}
+兆日	{"normal":"兆日科技","ticker":"300333"}
+惠天	{"normal":"惠天热电","ticker":"000692"}
+深中华	{"normal":"深中华A","ticker":"000017"}
+信威	{"normal":"信威集团","ticker":"600485"}
+盈方	{"normal":"*ST盈方","ticker":"000670"}
+康强	{"normal":"康强电子","ticker":"002119"}
+迪瑞	{"normal":"迪瑞医疗","ticker":"300396"}
+深天地	{"normal":"深天地A","ticker":"000023"}
+台基	{"normal":"台基股份","ticker":"300046"}
+银信	{"normal":"银信科技","ticker":"300231"}
+川润	{"normal":"川润股份","ticker":"002272"}
+唐德	{"normal":"唐德影视","ticker":"300426"}
+力星	{"normal":"力星股份","ticker":"300421"}
+鲁丰	{"normal":"*ST鲁丰","ticker":"002379"}
+洪都	{"normal":"洪都航空","ticker":"600316"}
+游族	{"normal":"游族网络","ticker":"002174"}
+杭氧	{"normal":"杭氧股份","ticker":"002430"}
+贝岭	{"normal":"上海贝岭","ticker":"600171"}
+峨眉山	{"normal":"峨眉山A","ticker":"000888"}
+朗源	{"normal":"朗源股份","ticker":"300175"}
+华懋	{"normal":"华懋科技","ticker":"603306"}
+华强	{"normal":"深圳华强","ticker":"000062"}
+中超	{"normal":"中超控股","ticker":"002471"}
+益佰	{"normal":"益佰制药","ticker":"600594"}
+丰乐	{"normal":"丰乐种业","ticker":"000713"}
+科新	{"normal":"科新机电","ticker":"300092"}
+小天鹅	{"normal":"小天鹅A","ticker":"000418"}
+智度	{"normal":"智度投资","ticker":"000676"}
+盾安	{"normal":"盾安环境","ticker":"002011"}
+同力	{"normal":"同力水泥","ticker":"000885"}
+盘江	{"normal":"盘江股份","ticker":"600395"}
+深纺织	{"normal":"深纺织A","ticker":"000045"}
+绿景	{"normal":"绿景控股","ticker":"000502"}
+陕国投	{"normal":"陕国投A","ticker":"000563"}
+数源	{"normal":"数源科技","ticker":"000909"}
+泰胜	{"normal":"泰胜风能","ticker":"300129"}
+创维	{"normal":"创维数字","ticker":"000810"}
+凯迪	{"normal":"凯迪生态","ticker":"000939"}
+康欣	{"normal":"康欣新材","ticker":"600076"}
+久立	{"normal":"久立特材","ticker":"002318"}
+博腾	{"normal":"博腾股份","ticker":"300363"}
+海虹	{"normal":"海虹控股","ticker":"000503"}
+欣泰	{"normal":"*欣泰","ticker":"300372"}
+双鹤	{"normal":"华润双鹤","ticker":"600062"}
+鹏辉	{"normal":"鹏辉能源","ticker":"300438"}
+晋亿	{"normal":"晋亿实业","ticker":"601002"}
+中船	{"normal":"中船防务","ticker":"600685"}
+华升	{"normal":"华升股份","ticker":"600156"}
+天奇	{"normal":"天奇股份","ticker":"002009"}
+恺英	{"normal":"恺英网络","ticker":"002517"}
+禾盛	{"normal":"禾盛新材","ticker":"002290"}
+星马	{"normal":"*ST星马","ticker":"600375"}
+天玑	{"normal":"天玑科技","ticker":"300245"}
+麦捷	{"normal":"麦捷科技","ticker":"300319"}
+佛塑	{"normal":"佛塑科技","ticker":"000973"}
+恒宝	{"normal":"恒宝股份","ticker":"002104"}
+仟源	{"normal":"仟源医药","ticker":"300254"}
+狮头	{"normal":"ST狮头","ticker":"600539"}
+佳隆	{"normal":"佳隆股份","ticker":"002495"}
+佳通	{"normal":"S佳通","ticker":"600182"}
+博信	{"normal":"博信股份","ticker":"600083"}
+汉缆	{"normal":"汉缆股份","ticker":"002498"}
+荣信	{"normal":"荣信股份","ticker":"002123"}
+南纺	{"normal":"南纺股份","ticker":"600250"}
+全柴	{"normal":"全柴动力","ticker":"600218"}
+申科	{"normal":"申科股份","ticker":"002633"}
+桐昆	{"normal":"桐昆股份","ticker":"601233"}
+汉得	{"normal":"汉得信息","ticker":"300170"}
+健盛	{"normal":"健盛集团","ticker":"603558"}
+丹邦	{"normal":"丹邦科技","ticker":"002618"}
+康跃	{"normal":"康跃科技","ticker":"300391"}
+阳煤	{"normal":"阳煤化工","ticker":"600691"}
+哈森	{"normal":"哈森股份","ticker":"603958"}
+长荣	{"normal":"长荣股份","ticker":"300195"}
+恒逸	{"normal":"恒逸石化","ticker":"000703"}
+国安	{"normal":"中信国安","ticker":"000839"}
+雷柏	{"normal":"雷柏科技","ticker":"002577"}
+吉电	{"normal":"吉电股份","ticker":"000875"}
+宏图	{"normal":"宏图高科","ticker":"600122"}
+普洛	{"normal":"普洛药业","ticker":"000739"}
+三诺	{"normal":"三诺生物","ticker":"300298"}
+沙河	{"normal":"沙河股份","ticker":"000014"}
+富瑞	{"normal":"富瑞特装","ticker":"300228"}
+汉王	{"normal":"汉王科技","ticker":"002362"}
+中钨	{"normal":"中钨高新","ticker":"000657"}
+汇川	{"normal":"汇川技术","ticker":"300124"}
+华微	{"normal":"华微电子","ticker":"600360"}
+威帝	{"normal":"威帝股份","ticker":"603023"}
+冠豪	{"normal":"冠豪高新","ticker":"600433"}
+嘉应	{"normal":"嘉应制药","ticker":"002198"}
+中视	{"normal":"中视传媒","ticker":"600088"}
+申达	{"normal":"申达股份","ticker":"600626"}
+建发	{"normal":"建发股份","ticker":"600153"}
+建研	{"normal":"建研集团","ticker":"002398"}
+南钢	{"normal":"南钢股份","ticker":"600282"}
+新亿	{"normal":"*ST新亿","ticker":"600145"}
+京东方	{"normal":"京东方A","ticker":"000725"}
+宝新	{"normal":"宝新能源","ticker":"000690"}
+模塑	{"normal":"模塑科技","ticker":"000700"}
+龙元	{"normal":"龙元建设","ticker":"600491"}
+世龙	{"normal":"世龙实业","ticker":"002748"}
+濮耐	{"normal":"濮耐股份","ticker":"002225"}
+赫美	{"normal":"赫美集团","ticker":"002356"}
+慈文	{"normal":"慈文传媒","ticker":"002343"}
+江铃	{"normal":"江铃汽车","ticker":"000550"}
+立霸	{"normal":"立霸股份","ticker":"603519"}
+深华发	{"normal":"深华发A","ticker":"000020"}
+骅威	{"normal":"骅威文化","ticker":"002502"}
+沙钢	{"normal":"沙钢股份","ticker":"002075"}
+九有	{"normal":"九有股份","ticker":"600462"}
+晨鸣	{"normal":"晨鸣纸业","ticker":"000488"}
+超华	{"normal":"超华科技","ticker":"002288"}
+紫鑫	{"normal":"紫鑫药业","ticker":"002118"}
+江泉	{"normal":"*ST江泉","ticker":"600212"}
+中成	{"normal":"中成股份","ticker":"000151"}
+吉峰	{"normal":"吉峰农机","ticker":"300022"}
+宇顺	{"normal":"*ST宇顺","ticker":"002289"}
+

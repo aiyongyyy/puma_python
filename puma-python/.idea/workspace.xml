@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea6e91db-ec42-4abf-9788-a0ddfd420335" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/puma_python$python.coverage" NAME="python Coverage Results" MODIFIED="1539524583161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/puma_python$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1538963152024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/puma" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1742294295">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.51" value="2" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dict" value="20" />
+          <entry key="properties" value="12" />
+          <entry key="py" value="180" />
+          <entry key="pyi" value="4" />
+          <entry key="rule" value="11" />
+          <entry key="state" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="Properties" value="12" />
+          <entry key="Python" value="180" />
+          <entry key="PythonStub" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="41" />
+          <entry key="properties" value="27" />
+          <entry key="py" value="58221" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="Properties" value="27" />
+          <entry key="Python" value="58221" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puma/extraction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1539164190964" expanded="true" signature="263:264" ph="..." />
+                <marker date="1539164190964" expanded="true" signature="2668:3654" ph="..." />
+                <marker date="1539164190964" expanded="true" signature="3681:4896" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puma/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1539223316476" expanded="true" signature="47:160" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1539524482476" expanded="true" signature="770:775" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puma/dynamic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12529">
+              <caret line="740" column="48" lean-forward="true" selection-start-line="740" selection-start-column="48" selection-end-line="740" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+                <marker date="1539329634625" expanded="true" signature="114:7564" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puma/service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="231" selection-start-line="231" selection-end-line="231" />
+              <folding>
+                <element signature="e#1#34#0" expanded="true" />
+                <marker date="1539521829378" expanded="true" signature="288:289" ph="..." />
+                <marker date="1539521829378" expanded="true" signature="288:294" ph="..." />
+                <marker date="1539521829378" expanded="true" signature="326:351" ph="..." />
+                <marker date="1539521829378" expanded="true" signature="620:645" ph="..." />
+                <marker date="1539521829378" expanded="true" signature="670:680" ph="..." />
+                <marker date="1539521829378" expanded="true" signature="671:680" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puma/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-32">
+              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+                <marker date="1539173474907" expanded="true" signature="433:551" ph="..." />
+                <marker date="1539173474907" expanded="true" signature="2763:3195" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puma/ner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
+              <folding>
+                <element signature="e#2#33#0" expanded="true" />
+                <marker date="1539323530567" expanded="true" signature="119:1638" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puma/contraint.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="423" selection-start-line="423" selection-end-line="423" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#258#11255#0" />
+                <element signature="e#11312#12102#0" />
+                <element signature="e#12159#13791#0" />
+                <element signature="e#13849#15692#0" />
+                <element signature="e#15749#22825#0" />
+                <marker date="1539522101756" expanded="true" signature="12228:12474" ph="..." />
+                <marker date="1539522101756" expanded="true" signature="13843:23055" ph="..." />
+                <marker date="1539522101756" expanded="true" signature="16042:16228" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puma/entity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-492">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1539065107478" expanded="true" signature="288:26555" ph="..." />
+                <marker date="1539065107478" expanded="true" signature="2349:2355" ph="..." />
+                <marker date="1539065107478" expanded="true" signature="23507:24526" ph="..." />
+                <marker date="1539065107478" expanded="true" signature="24555:25283" ph="..." />
+                <marker date="1539065107478" expanded="true" signature="25303:26555" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puma/trie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="138" column="8" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1539323276510" expanded="true" signature="67:68" ph="..." />
+                <marker date="1539323276510" expanded="true" signature="1435:1441" ph="..." />
+                <marker date="1539323276510" expanded="true" signature="1530:1592" ph="..." />
+                <marker date="1539323276510" expanded="true" signature="5539:6680" ph="..." />
+                <marker date="1539323276510" expanded="true" signature="5945:5951" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>date_relative_normal_extraction</find>
+      <find>initializeCondition</find>
+      <find>numberrange</find>
+      <find>date_calendar_normal_day</find>
+      <find>arabic_number</find>
+      <find>date_unit</find>
+      <find>date_calendar_normal_year#1</find>
+      <find>date_calendar_normal_year</find>
+      <find>number_compare_larger_extraction</find>
+      <find>valueWithoutNum</find>
+      <find>setValue</find>
+      <find>TrieNodePattern</find>
+      <find>insertTrieNode</find>
+      <find>v</find>
+      <find>deepcopy</find>
+      <find>SceneBase_Number</find>
+      <find>SceneBase_Date</find>
+      <find>SceneBase_Corporation</find>
+      <find>SceneBase_Segment</find>
+      <find>SceneBase_Constant</find>
+      <find>self)</find>
+      <find>dateutil</find>
+      <find>date_relative_range_extraction</find>
+      <find>getDateConstraint</find>
+      <find>getEntitytypeDateConstrain</find>
+      <find>backward</find>
+      <find>vec_target_var_nameWithScene</find>
+      <find>initializeAction</find>
+      <find>date_year</find>
+      <find>DATEDATE</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self, v</replace>
+      <replace>v[0]</replace>
+      <replace>v[1]</replace>
+      <replace>v[2]</replace>
+      <replace>v[3]</replace>
+      <replace>self, v)</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/puma/_puma/__init__.py" />
+        <option value="$PROJECT_DIR$/puma/_puma/_config.py" />
+        <option value="$PROJECT_DIR$/puma/_puma/configparser.py" />
+        <option value="$PROJECT_DIR$/puma/_puma/config.py" />
+        <option value="$PROJECT_DIR$/puma/puma.py" />
+        <option value="$PROJECT_DIR$/puma/etc/basenlp/nlp.properties" />
+        <option value="$PROJECT_DIR$/puma/etc/basenlp/nlp.prd.properties" />
+        <option value="$PROJECT_DIR$/puma/etc/basenlp/nlp.local.properties" />
+        <option value="$PROJECT_DIR$/puma/config.py" />
+        <option value="$PROJECT_DIR$/puma/Entity.py" />
+        <option value="$PROJECT_DIR$/puma/etc/annotator.py" />
+        <option value="$PROJECT_DIR$/puma/utils/fileUtils.py" />
+        <option value="$PROJECT_DIR$/puma/annotator.py" />
+        <option value="$PROJECT_DIR$/puma/analysis.py" />
+        <option value="$PROJECT_DIR$/puma/Service.py" />
+        <option value="$PROJECT_DIR$/puma/utils/tokenize.py" />
+        <option value="$PROJECT_DIR$/puma/utils/ConstantsDefine.py" />
+        <option value="$PROJECT_DIR$/puma/Scene.py" />
+        <option value="$PROJECT_DIR$/puma/utils/scenepool.py" />
+        <option value="$PROJECT_DIR$/puma/scene.py" />
+        <option value="$PROJECT_DIR$/puma/utils/stringutils.py" />
+        <option value="$PROJECT_DIR$/puma/utils/listutils.py" />
+        <option value="$PROJECT_DIR$/puma/action.py" />
+        <option value="$PROJECT_DIR$/puma/utils/fileutils.py" />
+        <option value="$PROJECT_DIR$/puma/entity.py" />
+        <option value="$PROJECT_DIR$/puma/etc/filesample/extractfiles/date.rule" />
+        <option value="$PROJECT_DIR$/puma/state.py" />
+        <option value="$PROJECT_DIR$/puma/etc/filesample/extractfiles/number.rule" />
+        <option value="$PROJECT_DIR$/puma/etc/filesample/tokenfiles/compare.dict" />
+        <option value="$PROJECT_DIR$/puma/etc/filesample/tokenfiles/corporation.dict" />
+        <option value="$PROJECT_DIR$/puma/etc/filesample/tokenfiles/date.dict" />
+        <option value="$PROJECT_DIR$/puma/etc/filesample/tokenfiles/number.dict" />
+        <option value="$PROJECT_DIR$/puma/tokenize.py" />
+        <option value="$PROJECT_DIR$/puma/extraction.py" />
+        <option value="$PROJECT_DIR$/puma/etc/filesample/statefiles/date.state" />
+        <option value="$PROJECT_DIR$/puma/etc/filesample/statefiles/number.state" />
+        <option value="$PROJECT_DIR$/puma/model.py" />
+        <option value="$PROJECT_DIR$/puma/utils/constantsdefine.py" />
+        <option value="$PROJECT_DIR$/puma/__init__.py" />
+        <option value="$PROJECT_DIR$/puma/data.py" />
+        <option value="$PROJECT_DIR$/puma/ssplit.py" />
+        <option value="$PROJECT_DIR$/puma/segment.py" />
+        <option value="$PROJECT_DIR$/puma/trie.py" />
+        <option value="$PROJECT_DIR$/puma/ner.py" />
+        <option value="$PROJECT_DIR$/puma/dynamic.py" />
+        <option value="$PROJECT_DIR$/puma/basenlp.properties" />
+        <option value="$PROJECT_DIR$/puma/contraint.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/puma/service.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="13" />
+    <option name="width" value="796" />
+    <option name="height" value="471" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="puma-python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="puma-python" type="462c0819:PsiDirectoryNode" />
+              <item name="puma" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="puma-python" type="462c0819:PsiDirectoryNode" />
+              <item name="puma" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="puma-python" type="462c0819:PsiDirectoryNode" />
+              <item name="puma" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="filesample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="puma-python" type="462c0819:PsiDirectoryNode" />
+              <item name="puma" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="filesample" type="462c0819:PsiDirectoryNode" />
+              <item name="extractfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="puma-python" type="462c0819:PsiDirectoryNode" />
+              <item name="puma" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="filesample" type="462c0819:PsiDirectoryNode" />
+              <item name="statefiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="puma-python" type="462c0819:PsiDirectoryNode" />
+              <item name="puma" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="filesample" type="462c0819:PsiDirectoryNode" />
+              <item name="tokenfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="puma-python" type="462c0819:PsiDirectoryNode" />
+              <item name="puma" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="puma-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/yuganchao/PycharmProjects/puma-python/puma/model.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/puma" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.python">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="puma-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/puma" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puma/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python" type="PythonConfigurationType" factoryName="Python">
+      <module name="puma-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.python" />
+      <item itemvalue="Python.__init__" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__init__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea6e91db-ec42-4abf-9788-a0ddfd420335" name="Default Changelist" comment="" />
+      <created>1537853011320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537853011320</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="28" width="1849" height="926" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19633943" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32901555" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32642487" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901555" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4997227" visible="true" weight="0.34326425" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50027734" side_tool="true" weight="0.3380829" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/_puma/__init__.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/_puma/__init__.py</url>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/__init__.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/__init__.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/entity.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/entity.py</url>
+          <line>269</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/entity.py</url>
+          <line>273</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/entity.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/entity.py</url>
+          <line>694</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/__init__.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/dynamic.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/extraction.py</url>
+          <line>271</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/dynamic.py</url>
+          <line>700</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/dynamic.py</url>
+          <line>708</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/contraint.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/entity.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/ssplit.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/extraction.py</url>
+          <line>304</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/extraction.py</url>
+          <line>330</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/extraction.py</url>
+          <line>337</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/extraction.py</url>
+          <line>348</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/extraction.py</url>
+          <line>361</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/dynamic.py</url>
+          <line>527</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/dynamic.py</url>
+          <line>504</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/dynamic.py</url>
+          <line>538</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/trie.py</url>
+          <line>283</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/trie.py</url>
+          <line>286</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/contraint.py</url>
+          <line>191</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/contraint.py</url>
+          <line>293</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/ner.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/service.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="542" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/ner.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="546" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/ner.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="547" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/service.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="553" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/service.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="555" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/service.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="556" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/service.py</url>
+          <line>174</line>
+          <option name="timeStamp" value="557" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/service.py</url>
+          <line>181</line>
+          <option name="timeStamp" value="558" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/service.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/puma/service.py</url>
+          <line>228</line>
+          <option name="timeStamp" value="560" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>for akey-&gt;aval in dic:
+    print(aval)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for (akey, aval) in dic:
+    print(aval)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for akey, aval in dic:
+    print(aval)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for akey, aval in dic:
+    print aval</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dateutil.utils</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dateutil.relativedelta</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dateutil.relativedelta.relativedelta(weeks=int(number))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for akey, aval in dic:</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for akey, aval in dic</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alphabet and scientificNumber and coChineseArabicNumber and chineseNumber and coChinesePercentNumber</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alphabet and scientificNumber and coChineseArabicNumber and chineseNumber and coChinesePercentNumber and notation</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alphabet and arbicNumber and scientificNumber and coChineseArabicNumber and chineseNumber and coChinesePercentNumber and notation</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>alphabet and arbicNumber and scientificNumber and coChineseArabicNumber and chineseNumber and coChinesePercentNumber and notation and date</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.match(r&quot;[a-zA-Z].*&quot;, wordModel.wordStr)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/puma/etc/basenlp/nlp.prd.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/basenlp/nlp.local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/queue.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/utils/scenepool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/orca/input_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="462" column="8" selection-start-line="462" selection-start-column="8" selection-end-line="462" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="507" column="8" selection-start-line="507" selection-start-column="8" selection-end-line="507" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/utils/listutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+          <folding>
+            <marker date="1538234559305" expanded="true" signature="69:329" ph="..." />
+            <marker date="1538234559305" expanded="true" signature="962:963" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-722">
+          <caret line="772" column="6" selection-start-line="772" selection-start-column="6" selection-end-line="772" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="176" column="35" selection-start-line="176" selection-start-column="35" selection-end-line="176" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/utils/stringutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/analysis.py" />
+    <entry file="file://$PROJECT_DIR$/puma/annotator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#2#16#0" expanded="true" />
+            <marker date="1537946276855" expanded="true" signature="83:89" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/utils/fileutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <marker date="1538975915347" expanded="true" signature="57:62" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1247971762/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2461" column="8" selection-start-line="2461" selection-start-column="8" selection-end-line="2461" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1539078527474" expanded="true" signature="176:177" ph="..." />
+            <marker date="1539078527474" expanded="true" signature="176:182" ph="..." />
+            <marker date="1539078527474" expanded="true" signature="400:401" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/filesample/statefiles/date.state">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/filesample/statefiles/number.state">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#2#33#0" expanded="true" />
+            <marker date="1539225474033" expanded="true" signature="151:152" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/basenlp/blacklist.dict">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/basenlp/ansj.dict">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/utils/constantsdefine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/dateutil/relativedelta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/dateutil/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/dateutil/_common.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/dateutil/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/scene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <marker date="1537955490389" expanded="true" signature="43:62" ph="..." />
+            <marker date="1537955490389" expanded="true" signature="134:652" ph="..." />
+            <marker date="1537955490389" expanded="true" signature="283:289" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/segment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#1#15#0" expanded="true" />
+            <marker date="1539225751398" expanded="true" signature="83:84" ph="..." />
+            <marker date="1539225751398" expanded="true" signature="241:284" ph="..." />
+            <marker date="1539225751398" expanded="true" signature="1434:1439" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#23#0" expanded="true" />
+            <marker date="1537942639271" expanded="true" signature="61:66" ph="..." />
+            <marker date="1537942639271" expanded="true" signature="176:181" ph="..." />
+            <marker date="1537942639271" expanded="true" signature="1688:2719" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/basenlp.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/filesample/tokenfiles/compare.dict">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="159" column="2" lean-forward="true" selection-start-line="159" selection-start-column="2" selection-end-line="159" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/filesample/tokenfiles/corporation.dict">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="118" column="3" selection-start-line="118" selection-end-line="118" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/filesample/tokenfiles/date.dict">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/filesample/tokenfiles/symbol.dict">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/filesample/tokenfiles/number.dict">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-599">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1539155531507" expanded="true" signature="293:294" ph="..." />
+            <marker date="1539155531507" expanded="true" signature="293:299" ph="..." />
+            <marker date="1539155531507" expanded="true" signature="461:467" ph="..." />
+            <marker date="1539155531507" expanded="true" signature="1171:1172" ph="..." />
+            <marker date="1539155531507" expanded="true" signature="1171:1177" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/filesample/extractfiles/number.rule">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/etc/filesample/extractfiles/date.rule">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/ssplit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1539225596599" expanded="true" signature="163:164" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/entity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-492">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1539065107478" expanded="true" signature="288:26555" ph="..." />
+            <marker date="1539065107478" expanded="true" signature="2349:2355" ph="..." />
+            <marker date="1539065107478" expanded="true" signature="23507:24526" ph="..." />
+            <marker date="1539065107478" expanded="true" signature="24555:25283" ph="..." />
+            <marker date="1539065107478" expanded="true" signature="25303:26555" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/dynamic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12529">
+          <caret line="740" column="48" lean-forward="true" selection-start-line="740" selection-start-column="48" selection-end-line="740" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1539329634625" expanded="true" signature="114:7564" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/trie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="138" column="8" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1539323276510" expanded="true" signature="67:68" ph="..." />
+            <marker date="1539323276510" expanded="true" signature="1435:1441" ph="..." />
+            <marker date="1539323276510" expanded="true" signature="1530:1592" ph="..." />
+            <marker date="1539323276510" expanded="true" signature="5539:6680" ph="..." />
+            <marker date="1539323276510" expanded="true" signature="5945:5951" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1539164190964" expanded="true" signature="263:264" ph="..." />
+            <marker date="1539164190964" expanded="true" signature="2668:3654" ph="..." />
+            <marker date="1539164190964" expanded="true" signature="3681:4896" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1539173474907" expanded="true" signature="433:551" ph="..." />
+            <marker date="1539173474907" expanded="true" signature="2763:3195" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/contraint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#258#11255#0" />
+            <element signature="e#11312#12102#0" />
+            <element signature="e#12159#13791#0" />
+            <element signature="e#13849#15692#0" />
+            <element signature="e#15749#22825#0" />
+            <marker date="1539522101756" expanded="true" signature="12228:12474" ph="..." />
+            <marker date="1539522101756" expanded="true" signature="13843:23055" ph="..." />
+            <marker date="1539522101756" expanded="true" signature="16042:16228" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1539223316476" expanded="true" signature="47:160" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/ner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="e#2#33#0" expanded="true" />
+            <marker date="1539323530567" expanded="true" signature="119:1638" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puma/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+          <folding>
+            <element signature="e#1#34#0" expanded="true" />
+            <marker date="1539521829378" expanded="true" signature="288:289" ph="..." />
+            <marker date="1539521829378" expanded="true" signature="288:294" ph="..." />
+            <marker date="1539521829378" expanded="true" signature="326:351" ph="..." />
+            <marker date="1539521829378" expanded="true" signature="620:645" ph="..." />
+            <marker date="1539521829378" expanded="true" signature="670:680" ph="..." />
+            <marker date="1539521829378" expanded="true" signature="671:680" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1539524482476" expanded="true" signature="770:775" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
