@@ -1,0 +1,20 @@
+#####场景
+SCE:date
+
+#varname	varlife(1:long,2:session,3:scene,4:request)	var_type
+number	4
+frequency	4
+relativeposition	4
+relativeposition_year	4
+relativeposition_quat	4
+relativeposition_month	4
+relativeposition_week	4
+relativeposition_day	4
+calendar	4
+calendar_year	4
+calendar_halfyear	4
+calendar_quat	4
+calendar_month	4
+calendar_day	4
+calendar_start	4
+calendar_end	4

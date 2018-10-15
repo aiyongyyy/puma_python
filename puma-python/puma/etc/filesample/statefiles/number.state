@@ -1,0 +1,9 @@
+#####场景
+SCE:number
+
+#varname	varlife(1:long,2:session,3:scene,4:request)	var_type
+number	4
+numberrange	4
+rank	4
+basis_month	4
+basis_year	4

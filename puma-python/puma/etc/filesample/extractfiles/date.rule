@@ -1,0 +1,262 @@
+#####场景
+SCE:date
+
+#####相对日期提取
+GID:date_relative_normal_extraction
+PAT:date_relative_normal_year
+PAT:date_relative_normal_quat
+PAT:date_relative_normal_month
+PAT:date_relative_normal_week
+PAT:date_relative_normal_day
+IF:
+	$[TAG_TXT String date_relative_normal_day]!=null
+THEN:
+	$[date::relativeposition_day]=$[TAG_TXT String date_relative_normal_day]
+END
+IF:
+	$[TAG_TXT String date_relative_normal_week]!=null
+THEN:
+	$[date::relativeposition_week]=$[TAG_TXT String date_relative_normal_week]
+END
+IF:
+	$[TAG_TXT String date_relative_normal_month]!=null
+THEN:
+	$[date::relativeposition_month]=$[TAG_TXT String date_relative_normal_month]
+END
+IF:
+	$[TAG_TXT String date_relative_normal_quat]!=null
+THEN:
+	$[date::relativeposition_quat]=$[TAG_TXT String date_relative_normal_quat]
+END
+IF:
+	$[TAG_TXT String date_relative_normal_year]!=null
+THEN:
+	$[date::relativeposition_year]=$[TAG_TXT String date_relative_normal_year]
+END
+
+GID:date_relative_range_extraction
+PAT:[	date_relative_before_prefix	date_relative_after_prefix	date_relative_forward_prefix	date_relative_backward_prefix	]	arabic_number	date_unit?	[	date_year	date_quat	date_month	date_week	date_day	]
+PAT:arabic_number	date_unit?	[	date_year	date_quat	date_month	date_week	date_day	]	[	date_relative_before_suffix	date_relative_after_suffix	date_relative_forward_suffix	date_relative_backward_suffix	]
+IF:
+	true
+THEN:
+	$[date::number]=$[TAG_TXT Double arabic_number]
+END
+IF:
+	$[TAG_TXT String date_year]!=null
+THEN:
+	$[date::frequency]="年"
+END
+IF:
+	$[TAG_TXT String date_month]!=null
+THEN:
+	$[date::frequency]="月"
+END
+IF:
+	$[TAG_TXT String date_week]!=null
+THEN:
+	$[date::frequency]="周"
+END
+IF:
+	$[TAG_TXT String date_day]!=null
+THEN:
+	$[date::frequency]="日"
+END
+IF:
+	$[TAG_TXT String date_quat]!=null
+THEN:
+	$[date::frequency]="季度"
+END
+IF:
+	$[TAG_TXT String date_relative_before_prefix]!=null || $[TAG_TXT String date_relative_before_suffix]!=null
+THEN:
+	$[date::relativeposition]="before"
+END
+IF:
+	$[TAG_TXT String date_relative_after_prefix]!=null || $[TAG_TXT String date_relative_after_suffix]!=null
+THEN:
+	$[date::relativeposition]="after"
+END
+IF:
+	$[TAG_TXT String date_relative_forward_prefix]!=null || $[TAG_TXT String date_relative_forward_suffix]!=null
+THEN:
+	$[date::relativeposition]="forward"
+END
+IF:
+	$[TAG_TXT String date_relative_backward_prefix]!=null || $[TAG_TXT String date_relative_backward_suffix]!=null
+THEN:
+	$[date::relativeposition]="backward"
+END
+
+#####绝对日期提取
+GID:date_calendar_normal_extraction
+PAT:date_calendar_normal_day
+PAT:date_calendar_normal_month
+PAT:date_calendar_normal_quat
+PAT:date_calendar_normal_halfyear
+PAT:date_calendar_normal_year
+IF:
+	$[TAG_TXT String date_calendar_normal_year]!=null
+THEN:
+	$[date::calendar_year]=$[TAG_TXT String date_calendar_normal_year]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_halfyear]!=null
+THEN:
+	$[date::calendar_halfyear]=$[TAG_TXT String date_calendar_normal_halfyear]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_quat]!=null
+THEN:
+	$[date::calendar_quat]=$[TAG_TXT String date_calendar_normal_quat]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_month]!=null
+THEN:
+	$[date::calendar_month]=$[TAG_TXT String date_calendar_normal_month]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_day]!=null
+THEN:
+	$[date::calendar_day]=$[TAG_TXT String date_calendar_normal_day]
+END
+
+GID:date_calendar_period_extraction
+PAT:compare_equal?	compare_period_prefix?	[	date_calendar_normal_year#1	date_calendar_normal_halfyear#1	date_calendar_normal_quat#1	date_calendar_normal_month#1	date_calendar_normal_day#1	]	compare_period	[	date_calendar_normal_year#2	date_calendar_normal_halfyear#2	date_calendar_normal_quat#2	date_calendar_normal_month#2	date_calendar_normal_day#2	]	compare_period_tail?
+PAT:compare_equal?	compare_period_prefix?	date_calendar_normal_year#1	compare_and	date_calendar_normal_year#2	compare_period_tail
+IF:
+	$[TAG_TXT String date_calendar_normal_year#1]!=null
+THEN:
+	$[date::calendar_start]=$[TAG_TXT String date_calendar_normal_year#1]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_halfyear#1]!=null
+THEN:
+	$[date::calendar_start]=$[TAG_TXT String date_calendar_normal_halfyear#1]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_quat#1]!=null
+THEN:
+	$[date::calendar_start]=$[TAG_TXT String date_calendar_normal_quat#1]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_month#1]!=null
+THEN:
+	$[date::calendar_start]=$[TAG_TXT String date_calendar_normal_month#1]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_day#1]!=null
+THEN:
+	$[date::calendar_start]=$[TAG_TXT String date_calendar_normal_day#1]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_year#2]!=null
+THEN:
+	$[date::calendar_end]=$[TAG_TXT String date_calendar_normal_year#2]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_halfyear#2]!=null
+THEN:
+	$[date::calendar_end]=$[TAG_TXT String date_calendar_normal_halfyear#2]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_quat#2]!=null
+THEN:
+	$[date::calendar_end]=$[TAG_TXT String date_calendar_normal_quat#2]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_month#2]!=null
+THEN:
+	$[date::calendar_end]=$[TAG_TXT String date_calendar_normal_month#2]
+END
+IF:
+	$[TAG_TXT String date_calendar_normal_day#2]!=null
+THEN:
+	$[date::calendar_end]=$[TAG_TXT String date_calendar_normal_day#2]
+END
+
+GID:date_calendar_range_extraction
+PAT:date_calendar_normal_extraction	[	date_relative_before_suffix	date_relative_after_suffix	date_relative_forward_suffix	date_relative_backward_suffix	]
+IF:
+	$[TAG_PAT String date_calendar_normal_extraction.date::calendar_year]!=null
+THEN:
+	$[date::calendar_year]=$[TAG_PAT String date_calendar_normal_extraction.date::calendar_year]
+END
+IF:
+	$[TAG_PAT String date_calendar_normal_extraction.date::calendar_halfyear]!=null
+THEN:
+	$[date::calendar_year]=$[TAG_PAT String date_calendar_normal_extraction.date::calendar_halfyear]
+END
+IF:
+	$[TAG_PAT String date_calendar_normal_extraction.date::calendar_quat]!=null
+THEN:
+	$[date::calendar_quat]=$[TAG_PAT String date_calendar_normal_extraction.date::calendar_quat]
+END
+IF:
+	$[TAG_PAT String date_calendar_normal_extraction.date::calendar_month]!=null
+THEN:
+	$[date::calendar_month]=$[TAG_PAT String date_calendar_normal_extraction.date::calendar_month]
+END
+IF:
+	$[TAG_PAT String date_calendar_normal_extraction.date::calendar_day]!=null
+THEN:
+	$[date::calendar_day]=$[TAG_PAT String date_calendar_normal_extraction.date::calendar_day]
+END
+IF:
+	$[TAG_TXT String date_relative_before_suffix]!=null
+THEN:
+	$[date::relativeposition]="before"
+END
+IF:
+	$[TAG_TXT String date_relative_after_suffix]!=null
+THEN:
+	$[date::relativeposition]="after"
+END
+IF:
+	$[TAG_TXT String date_relative_forward_suffix]!=null
+THEN:
+	$[date::relativeposition]="forward"
+END
+IF:
+	$[TAG_TXT String date_relative_backward_suffix]!=null
+THEN:
+	$[date::relativeposition]="backward"
+END
+
+GID:date_relative_range_custorm_extraction
+PAT:arabic_number	date_unit	[	date_year	date_quat	date_month	date_week	date_day	]
+IF:
+true
+THEN:
+$[date::number]=$[TAG_TXT Double arabic_number]
+END
+IF:
+$[TAG_TXT String date_year]!=null
+THEN:
+$[date::frequency]="年"
+END
+IF:
+$[TAG_TXT String date_month]!=null
+THEN:
+$[date::frequency]="月"
+END
+IF:
+$[TAG_TXT String date_week]!=null
+THEN:
+$[date::frequency]="周"
+END
+IF:
+$[TAG_TXT String date_day]!=null
+THEN:
+$[date::frequency]="日"
+END
+IF:
+$[TAG_TXT String date_quat]!=null
+THEN:
+$[date::frequency]="季度"
+END
+IF:
+true
+THEN:
+$[date::relativeposition]="forward"
+END

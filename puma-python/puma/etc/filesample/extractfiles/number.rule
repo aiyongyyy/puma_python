@@ -1,0 +1,137 @@
+#####场景
+SCE:number
+
+#####大于某值
+GID:number_compare_larger_extraction
+PAT:compare_larger	arabic_number	number_unit?
+PAT:symbol_meaningless_point?	arabic_number	number_unit?	compare_larger_tail
+PAT:compare_nosmaller	arabic_number	number_unit?
+PAT:compare_largerequal	arabic_number	number_unit?
+IF:
+	$[TAG_TXT String compare_larger]!=null || $[TAG_TXT String compare_larger_tail]!=null
+THEN:
+	$[number::number]=$[TAG_TXT Double arabic_number]
+	$[number::numberrange]="(" + $[TAG_TXT Double arabic_number] + ", )"
+END
+IF:
+	$[TAG_TXT String compare_nosmaller]!=null || $[TAG_TXT String compare_largerequal]!=null
+THEN:
+	$[number::number]=$[TAG_TXT Double arabic_number]
+	$[number::numberrange]="[" + $[TAG_TXT Double arabic_number] + ", )"
+END
+
+#####小于某值
+GID:number_compare_smaller_extraction
+PAT:compare_smaller	arabic_number	number_unit?
+PAT:symbol_meaningless_point?	arabic_number	number_unit?	compare_smaller_tail
+PAT:compare_nolarger	arabic_number	number_unit?
+PAT:compare_smallerequal	arabic_number	number_unit?
+IF:
+	$[TAG_TXT String compare_smaller]!=null || $[TAG_TXT String compare_smaller_tail]!=null
+THEN:
+	$[number::number]=$[TAG_TXT Double arabic_number]
+	$[number::numberrange]="( ," + $[TAG_TXT Double arabic_number] + ")"
+END
+IF:
+	$[TAG_TXT String compare_nolarger]!=null || $[TAG_TXT String compare_smallerequal]!=null
+THEN:
+	$[number::number]=$[TAG_TXT Double arabic_number]
+	$[number::numberrange]="( ," + $[TAG_TXT Double arabic_number] + "]"
+END
+
+#####等于某值
+GID:number_compare_equal_extraction
+PAT:arabic_number	number_unit
+PAT:compare_equal	arabic_number	number_unit?
+PAT:arabic_number	number_unit?	compare_around
+IF:
+	true
+THEN:
+	$[number::number]=$[TAG_TXT Double arabic_number]
+	$[number::numberrange]="[" + $[TAG_TXT Double arabic_number] * 0.9 + "," + $[TAG_TXT Double arabic_number] * 1.1 + "]"
+END
+
+#####排序
+GID:number_rank_extraction
+PAT:number_rank_before	arabic_number?
+PAT:number_rank_after	arabic_number?
+IF:
+	$[TAG_TXT String number_rank_before]!=null && $[TAG_TXT Double arabic_number]!=null
+THEN:
+	$[number::rank]="前" + $[TAG_TXT Double arabic_number]
+END
+IF:
+	$[TAG_TXT String number_rank_before]!=null && $[TAG_TXT Double arabic_number]==null
+THEN:
+	$[number::rank]="前" + "INFINITY"
+END
+IF:
+	$[TAG_TXT String number_rank_after]!=null && $[TAG_TXT Double arabic_number]!=null
+THEN:
+	$[number::rank]="后" + $[TAG_TXT Double arabic_number]
+END
+IF:
+	$[TAG_TXT String number_rank_after]!=null && $[TAG_TXT Double arabic_number]==null
+THEN:
+	$[number::rank]="后" + "INFINITY"
+END
+
+#####环比
+GID:number_basis_month_extraction
+PAT:number_basis_month
+PAT:number_basis_month	[	number_compare_larger_extraction	number_compare_smaller_extraction	number_compare_equal_extraction	number_compare_period_extraction	]
+IF:
+	$[TAG_TXT String number_compare_larger_extraction]==null && $[TAG_TXT String number_compare_smaller_extraction]==null && $[TAG_TXT String number_compare_equal_extraction]==null && $[TAG_TXT String number_compare_period_extraction]==null
+THEN:
+	$[number::basis_month]="!null"
+END
+IF:
+	$[TAG_TXT String number_compare_larger_extraction]!=null
+THEN:
+	$[number::basis_month]=$[TAG_PAT String number_compare_larger_extraction.number::numberrange]
+END
+IF:
+	$[TAG_TXT String number_compare_smaller_extraction]!=null
+THEN:
+	$[number::basis_month]=$[TAG_PAT String number_compare_smaller_extraction.number::numberrange]
+END
+IF:
+	$[TAG_TXT String number_compare_equal_extraction]!=null
+THEN:
+	$[number::basis_month]=$[TAG_PAT String number_compare_equal_extraction.number::numberrange]
+END
+IF:
+	$[TAG_TXT String number_compare_period_extraction]!=null
+THEN:
+	$[number::basis_month]=$[TAG_PAT String number_compare_period_extraction.number::numberrange]
+END
+
+#####同比
+GID:number_basis_year_extraction
+PAT:number_basis_year
+PAT:number_basis_year	[	number_compare_larger_extraction	number_compare_smaller_extraction	number_compare_equal_extraction	number_compare_period_extraction	]
+IF:
+	$[TAG_TXT String number_compare_larger_extraction]==null && $[TAG_TXT String number_compare_smaller_extraction]==null && $[TAG_TXT String number_compare_equal_extraction]==null && $[TAG_TXT String number_compare_period_extraction]==null
+THEN:
+	$[number::basis_year]="!null"
+END
+IF:
+	$[TAG_TXT String number_compare_larger_extraction]!=null
+THEN:
+	$[number::basis_year]=$[TAG_PAT String number_compare_larger_extraction.number::numberrange]
+END
+IF:
+	$[TAG_TXT String number_compare_smaller_extraction]!=null
+THEN:
+	$[number::basis_year]=$[TAG_PAT String number_compare_smaller_extraction.number::numberrange]
+END
+IF:
+	$[TAG_TXT String number_compare_equal_extraction]!=null
+THEN:
+	$[number::basis_year]=$[TAG_PAT String number_compare_equal_extraction.number::numberrange]
+END
+IF:
+	$[TAG_TXT String number_compare_period_extraction]!=null
+THEN:
+	$[number::basis_year]=$[TAG_PAT String number_compare_period_extraction.number::numberrange]
+END
